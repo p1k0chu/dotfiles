@@ -1,0 +1,69 @@
+[user]
+    email = anatoliyid0207@gmail.com
+    name = "p1k0chu"
+    signingkey = "2456438E1EFC5B8F7555738343FE94B612328732"
+
+[alias]
+    st = status
+    sts = status -s
+    lol = log --graph --oneline
+    co = checkout
+	chdiff = diff --cached
+
+[branch]
+    sort = "-committerdate"
+[rebase]
+    autoSquash = true
+    autoStash = true
+    updateRefs = true
+[column]
+    ui = "auto"
+[tag]
+    sort = version:refname
+    gpgSign = true
+[commit]
+    gpgsign = true
+[core]
+    editor = "nvim"
+[init]
+    defaultBranch = "main"
+[diff]
+    algorithm = histogram
+    colorMoved = plain
+    renames = "copy"
+[push]
+    default = simple
+    gpgSign = if-asked
+[fetch]
+    all = true
+    prune = true
+    parallel = 0
+[help]
+    autocorrect = prompt
+[advice]
+    forceDeleteBranch = false
+    detachedHead = false
+[merge]
+    conflictStyle = "zdiff3"
+[status]
+    showStash = true
+
+
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+
+
+[maintenance]
+	repo = /home/pikachu/coding/LeaflowMC/Leaflow
+
