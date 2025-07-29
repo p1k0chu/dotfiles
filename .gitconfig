@@ -9,6 +9,8 @@
     lol = log --graph --oneline
     co = checkout
 	chdiff = diff --cached
+	resed = restore --staged
+	amend = commit --amend
 
 [branch]
     sort = "-committerdate"
