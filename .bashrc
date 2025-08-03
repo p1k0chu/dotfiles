@@ -1,3 +1,3 @@
 source ~/.env
 
-fortune | cowsay -f actually -W 70
+fortune | cowsay -f actually -n
