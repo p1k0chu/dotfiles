@@ -2,6 +2,8 @@ git:
   overrideGpg: true
   autoStageResolvedConflicts: false
   autoForwardBranches: none
+gui:
+  useHunkModeInStagingView: false
 customCommands:
   - key: 'P'
     command: "git push {{.SelectedRemote.Name}} {{.SelectedLocalCommit.Sha}}:{{.SelectedLocalBranch.Name}}"
