@@ -5,7 +5,7 @@ return {
         config = function(_)
             vim.lsp.enable('lua_ls')
             vim.lsp.enable('rust_analyzer')
-            vim.lsp.enable('clang')
+            vim.lsp.enable('clangd')
             vim.lsp.enable('asm_lsp')
         end
     },
