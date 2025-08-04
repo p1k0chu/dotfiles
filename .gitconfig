@@ -12,6 +12,7 @@
 	resed = restore --staged
 	amend = commit --amend
 	rc = rebase --continue
+	pushf = push --force-with-lease
 
 [branch]
     sort = "-committerdate"
