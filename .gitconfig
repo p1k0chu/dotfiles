@@ -11,6 +11,7 @@
 	chdiff = diff --cached
 	resed = restore --staged
 	amend = commit --amend
+	rc = rebase --continue
 
 [branch]
     sort = "-committerdate"
