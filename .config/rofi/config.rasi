@@ -1,0 +1,11 @@
+configuration {
+    show-icons: true;
+    terminal: "kitty";
+    ssh-client: "tmux new ssh";
+    drun-show-actions: true;
+    sidebar-mode: true;
+
+    ssh {
+        client: "tmux new ssh";
+    }
+}
