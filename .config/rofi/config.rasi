@@ -1,4 +1,5 @@
 configuration {
+    modes: "window,drun,run,ssh,calc";
     show-icons: true;
     terminal: "kitty";
     ssh-client: "tmux new ssh";
@@ -7,5 +8,9 @@ configuration {
 
     ssh {
         client: "tmux new ssh";
+    }
+
+    calc {
+        calc-command: "echo -n '{result}' | wl-copy";
     }
 }
