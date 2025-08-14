@@ -13,7 +13,6 @@
 	amend = commit --amend
 	rc = rebase --continue
 	pushf = push --force-with-lease
-	unpushed = log --oneline origin..HEAD
 
 [branch]
     sort = "-committerdate"
