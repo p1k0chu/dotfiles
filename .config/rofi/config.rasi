@@ -1,4 +1,4 @@
-@theme "gruvbox-dark-soft"
+@theme "my_theme"
 
 configuration {
     modes: "drun,run,calc,emoji,ssh,tmux:~/scripts/rofi_tmux_selector.sh";
