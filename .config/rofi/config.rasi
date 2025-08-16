@@ -6,6 +6,7 @@ configuration {
     terminal: "kitty";
     drun-show-actions: true;
     sidebar-mode: true;
+    parse-known-hosts: false;
 
     calc {
         calc-command: "echo -n '{result}' | wl-copy";
