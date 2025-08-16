@@ -1,7 +1,7 @@
 @theme "gruvbox-dark-soft"
 
 configuration {
-    modi: "window,drun,run,calc,emoji,ssh,tmux:~/scripts/rofi_tmux_selector.sh";
+    modes: "drun,run,calc,emoji,ssh,tmux:~/scripts/rofi_tmux_selector.sh";
     show-icons: true;
     terminal: "kitty";
     drun-show-actions: true;
