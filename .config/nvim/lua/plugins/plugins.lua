@@ -58,30 +58,6 @@ return {
         }
     },
     {
-        'nvim-lualine/lualine.nvim',
-        dependencies = { 'nvim-tree/nvim-web-devicons' },
-        opts = {
-            options = {
-                theme = "codedark",
-            },
-            sections = {
-                lualine_a = { "mode" },
-                lualine_b = {
-                    "branch",
-                    -- "diff",
-                    "diagnostics",
-                },
-                lualine_c = { "filename" },
-                lualine_x = { "filetype" },
-                lualine_y = {
-                    "searchcount",
-                    "progress",
-                },
-                lualine_z = { "location" },
-            }
-        }
-    },
-    {
         "mistricky/codesnap.nvim",
         build = "make",
         cmd = {
