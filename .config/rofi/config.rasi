@@ -1,3 +1,5 @@
+@theme "gruvbox-dark-soft"
+
 configuration {
     modes: "window,drun,run,calc,emoji,ssh";
     show-icons: true;
